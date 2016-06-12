@@ -1,0 +1,41 @@
+.cycle-slideshow {	
+	width: 100vw;
+	height: 100vh;	
+}
+.slide-img{
+	height: 100%;
+	width: 100%;
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+
+#slide1{
+	background-image: url("1.jpeg");
+}
+
+#slide2{
+	background-image: url("2.jpg");
+}
+
+#slide3{
+	background-image: url("3.jpg");
+}
+
+#slide4{
+	background-image: url("3.jpg");
+}
+
+.slide-text {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	color: #fff;
+	font-family: 'Lobster', cursive;
+	font-size: 400%;
+	text-shadow: 5px 5px #000;
+	letter-spacing: 5px;
+	text-align: center;
+}

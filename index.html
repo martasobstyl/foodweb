@@ -3,13 +3,16 @@
 <head>
 	<title> Foodweb </title>
 	<meta charset="UTF-8">
-	<link rel="stylesheet" href="style.css">
 	<link rel="stylesheet" href="css/font-awesome.css"/>
     <link type="text/css" rel="stylesheet" href="css/bootstrap-theme.css">
     <link type="text/css" rel="stylesheet" href="css/bootstrap.css">
     <script src="js/jquery-2.2.3.js"></script>
     <script src="js/bootstrap.js"></script>
 	<script type="text/javascript" src="main.js"></script>
+	<link href='https://fonts.googleapis.com/css?family=Lobster&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<script src="http://malsup.github.com/jquery.cycle2.js"></script>
+	<link rel="stylesheet" href="style.css">
 </head>
 
 <body>
@@ -19,26 +22,24 @@
          </span>
               <ul id="menuList" class="flex flexCenter">
               	  <li><a href="#">Strona Główna</a></li>
-                  <li><a href="#">Blog</a></li>
-                  <li><a href="#">O mnie</a></li>
+                  <li><a href="#">O nas</a></li>
+                  <li><a href="#">Menu</a></li>
                   <li><a href="#">Kontakt</a></li>
               </ul>
     </header>
-	
-	<div class="logo flex flexCenter">
-		<img src="nebonebo_biale_beztla.png">
+    <div id="container">
+	    <div class="main"></div>
+	    <div class="about-us"></div>
+	    <div class="menu">
+	    	<div class="cycle-slideshow" data-cycle-fx="scrollHorz" data-cycle-timeout="3000" data-cycle-slides="> div" >
+			<div id="slide1" class="slide-img"><span class="slide-text"><p>Uczta dla zmysłów</p></span></div>
+			<div id="slide2" class="slide-img"><span class="slide-text"><p>Wypróbuj dania polecane przez szefa kuchni</p></span></div>
+			<div id="slide3" class="slide-img"><span class="slide-text"><p>Organizujemy bankiety i wesela</p></span></div>
+			<div id="slide4" class="slide-img"><span class="slide-text"><p>Zapraszamy!</p></span></div>
 	</div>
-
-	<div class="srodek">
-		<h1> Angels arrive right now - please little patience... 
-		</h1>
-		<h2> Anioły się właśnie zlautją - prosimy o cierpliwość... </h2>
-
-		<button id="guzik"> Pobież bonmota! </button>
-		<div id="info">
-		</div>
-	</div>
-
+	    </div>
+	    <div class="contact"></div>
+    </div>
 	<footer>
 		<div class="stopa flex">
 			<a href="https://www.facebook.com/Nebo-Nebo-1034069870021406/">
