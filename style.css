@@ -39,3 +39,73 @@
 	letter-spacing: 5px;
 	text-align: center;
 }
+
+.col-md-3 h1
+{
+  text-transform:uppercase;
+}
+.col-md-3 h1:hover
+{
+  text-transform:uppercase;
+  cursor:pointer;
+  animation: rubberBand 1s;
+}
+.col-md-3 h4
+{
+  text-transform:uppercase;
+}
+.col-md-3
+{
+  text-align:center;
+  font-family: 'Lobster', bold;
+  
+}
+.col-md-3 hr
+{
+  color: black;
+  background-color: black;
+  height:1px;
+}
+.about-us
+{
+  background-color:#FF2121;
+  padding-bottom:50px;
+  color:white;
+}
+@keyframes rubberBand {
+  from {
+    -webkit-transform: scale3d(1, 1, 1);
+    transform: scale3d(1, 1, 1);
+  }
+
+  30% {
+    -webkit-transform: scale3d(1.25, 0.75, 1);
+    transform: scale3d(1.25, 0.75, 1);
+  }
+
+  40% {
+    -webkit-transform: scale3d(0.75, 1.25, 1);
+    transform: scale3d(0.75, 1.25, 1);
+  }
+
+  50% {
+    -webkit-transform: scale3d(1.15, 0.85, 1);
+    transform: scale3d(1.15, 0.85, 1);
+  }
+
+  65% {
+    -webkit-transform: scale3d(.95, 1.05, 1);
+    transform: scale3d(.95, 1.05, 1);
+  }
+
+  75% {
+    -webkit-transform: scale3d(1.05, .95, 1);
+    transform: scale3d(1.05, .95, 1);
+  }
+
+  to {
+    -webkit-transform: scale3d(1, 1, 1);
+    transform: scale3d(1, 1, 1);
+  }
+}
+
