@@ -106,6 +106,32 @@ div.menu2 {
 	}
 }
 
+div.homepage-hero-module h1{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	color: #fff;
+	font-family: 'Lobster', cursive;
+	font-size: 400%;
+	text-shadow: 5px 5px #000;
+	letter-spacing: 5px;
+	text-align: center;
+}
+
+div.homepage-hero-module h2{
+	position: absolute;
+	top: 75%;
+	left: 60%;
+	color: #fff;
+	font-family: 'Lobster', cursive;
+	font-size: 100%;
+	text-shadow: 2px 2px #000;
+	letter-spacing: 2px;
+	text-align: right;
+}
+
+
 /*slider*/
 .cycle-slideshow {	
 	width: 100vw;

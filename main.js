@@ -21,6 +21,7 @@ $( document ).ready(function() {
 
 });
 
+
 function scaleVideoContainer() {
 
     var height = $(window).height() + 5;
@@ -67,5 +68,3 @@ function scaleBannerVideoSize(element){
     });
 }
 // koniec filmika
-
-
