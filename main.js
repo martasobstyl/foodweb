@@ -14,6 +14,11 @@ $( document ).ready(function() {
         scaleBannerVideoSize('.video-container video');
     });
 
+    // menu wysuwane
+    $(".mainmenu a i").click(function() {
+        $( "#menuList" ).toggle( "slide" );
+    });
+
 });
 
 function scaleVideoContainer() {
@@ -62,3 +67,5 @@ function scaleBannerVideoSize(element){
     });
 }
 // koniec filmika
+
+

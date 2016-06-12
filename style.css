@@ -1,6 +1,3 @@
-<<<<<<< ff0ca1e48598d6f215b05400805b28bbd4aaa320
-.cycle-slideshow {
-=======
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -48,18 +45,79 @@ table {
 	box-sizing: border-box;
 }
 
+div.mainmenu{
+	float: left;
+	position: fixed;
+	z-index: 150;
+	width: 100%;
+	background-color: rgba(255, 255, 255, 0.5);
+	text-shadow: 2px 2px 5px #212121;
+}
+
+div.mainmenu a{
+	display: inline-block;
+	margin-top: 10px;
+	font-size: 35px;
+	vertical-align: top;
+}
+
+div.mainmenu a i{
+	color: #ed7f7f;
+	vertical-align: top;
+	margin-top: 9px;
+	margin-left: 20px;
+}
+
+#menuList{
+    list-style: none;
+    margin:0 0 0 0;
+    padding: 0 0 0;
+}
+
+div.menu2 {
+    display: inline-block;
+    margin-top: 18px;
+    margin-left: 20px;
+}
+
+#menuList li{
+	display: inline-block;
+}
+
+#menuList li a{
+	margin-top: 0px;
+	font-family: Helvetica, Open Sans, sans serif;
+	font-size: 1.2em;
+	font-weight: normal;
+	text-shadow: 2px 2px 5px #212121;
+	color: #ed7f7f;
+    border: none;
+    padding: 10px 10px;
+}
+
+#menuList li a:hover{
+    color: white;
+    transition: color 0.5s;
+}
+
+@media screen and (max-width: 600px) {
+	#menuList {
+	flex-direction:column;
+	}
+}
+
+/*slider*/
 .cycle-slideshow {	
->>>>>>> przedprzerwa video + main manu pasek przezroczysty
 	width: 100vw;
 	height: 100vh;	
 }
+
 .slide-img{
 	height: 100%;
 	width: 100%;
 	background-position: center;
 	background-size: cover;
 	background-repeat: no-repeat;
-	background-attachment: fixed;
 }
 
 #slide1{
@@ -91,7 +149,6 @@ table {
     text-align: center;
 }
 
-<<<<<<< ff0ca1e48598d6f215b05400805b28bbd4aaa320
 .clearfix:after{
     content: "";
     clear: both;
@@ -377,7 +434,6 @@ div.icons a {
   }
 }
 
-=======
 div.mainmenu{
 	position: absolute;
 	z-index: 50;
@@ -399,7 +455,6 @@ div.mainmenu a i{
 	margin-top: 9px;
 	margin-left: 20px;
 }
-
 /*filmik*/
 .homepage-hero-module {
     border-right: none;
@@ -444,33 +499,9 @@ div.mainmenu a i{
 }
 /*koniec filmika*/
 
-#main-header{
-	z-index: 10;
-	float: left;
-	position: fixed;
-	top: 10px;
-	left: 50%;
-	margin-left: -265px;
-}
-
-#menuList li{
-    display: inline-block;
-    padding: 15px 15px;
-}
-
-#menuList li a{
-    margin-top: 0px;
-	font-family: Helvetica, Open Sans, sans serif;
-	font-size: 1.2em;
-	font-weight: normal;
-	text-shadow: 2px 2px 5px #212121;
-	color: #ed7f7f;
-    border: none;
-    padding: 10px 10px;
-}
 
 #menuList li a:hover{
     color: white;
     transition: color 0.5s;
 }
->>>>>>> przedprzerwa video + main manu pasek przezroczysty
+
