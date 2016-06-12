@@ -1,4 +1,4 @@
-.cycle-slideshow {	
+.cycle-slideshow {
 	width: 100vw;
 	height: 100vh;	
 }
@@ -28,16 +28,232 @@
 }
 
 .slide-text {
-	position: absolute;
-	top: 50%;
-	left: 50%;
-	transform: translate(-50%, -50%);
-	color: #fff;
-	font-family: 'Lobster', cursive;
-	font-size: 400%;
-	text-shadow: 5px 5px #000;
-	letter-spacing: 5px;
-	text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+    font-family: 'Lobster', cursive;
+    font-size: 400%;
+    text-shadow: 5px 5px #000;
+    letter-spacing: 5px;
+    text-align: center;
+}
+
+.clearfix:after{
+    content: "";
+    clear: both;
+    display: table;
+    margin: 0;
+}
+
+div.contact{
+    padding: 0;
+    margin: 0;
+    background-image: url(img/contact.jpeg);
+}
+
+
+div.imgcontact {
+    filter: "progid:DXImageTransform.Microsoft.Dropshadow(OffX=12, OffY=12,
+    Color='#444')";
+    filter: url(#drop-shadow);
+    -webkit-filter: drop-shadow(12px 12px 7px rgba(0,0,0,0.5));
+    filter: drop-shadow(12px 12px 7px rgba(0,0,0,0.5));
+}
+
+div.contact .dane{
+    background-color: rgba(255, 245, 235, 0.8);
+    font-family: Verdana, sans-serif;
+    font-size: 14px;
+    color: black;
+    border-radius: 7px;
+    padding: 20px;
+    display: inline-block;
+}
+
+div.dane td {
+    padding-bottom: 10px;
+    font-family: Lobster, sans-serif;
+    font-size: 15px;
+}
+
+div.dane i{
+    color: #ed7f7f;
+}
+
+#formularz {
+    float: left;
+    border: 3px solid #ed7f7f;
+    border-radius: 10px;
+    padding: 15px;
+    display: inline-block;
+    margin-bottom:5px;
+    font-family: Lobster, sans-serif;
+    font-weight: bold;
+    text-align: center;
+    font-size: 14px;
+    color: #555555;
+}
+
+#formularz p{
+    margin-bottom: 15px;
+    font-size: 16px;
+}
+
+#formularz input {
+    padding: 10px;
+    border-radius: 5px;
+    border:1px solid #ccc;
+    margin-bottom: 5px;
+    width: 100%;
+    background-color: #fff5eb;
+}
+
+#formularz textarea {
+    background-color: #fff5eb;
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    margin-bottom: 5px;
+    width: 100%;
+    height: 150px;
+    resize: none;
+}
+
+#formularz input.send {
+    font-family: Lobster, sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    background-color: #ed7f7f;
+    width: 100%;
+    height: 50px;
+}
+
+div.mapa {
+    padding: 0;
+}
+
+div.mapa iframe {
+    width: 100%;
+    height: 300px;
+    padding: 0;
+}
+
+footer {
+    font-family: Lobster, sans-serif;
+    text-align: center;
+    font-size: 14px;
+    color: grey;
+    height: 40px;
+    padding: 10px;
+    width: 100%;
+    background-color: #fff5eb;
+    border-color: #fff5eb;
+    border-radius: 10px;
+}
+
+div.find {
+    margin-top: 30px;
+    font-family: Lobster, sans-serif;
+    text-align: center;
+    font-size: 30px;
+    height: 200px;
+}
+
+div.find p {
+    background-color: #fff5eb;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+div.icons .fa {
+    margin-left: 10px;
+    padding: 10px 15px 10px 15px;
+}
+
+div.icons {
+    margin-bottom: 10px;
+}
+
+div.icons a {
+    text-decoration: none;
+    -webkit-transition: all .5s ease-in-out;
+    transition: all .5s ease-in-out;
+}
+
+.fa-facebook {
+    color: #3b5998;
+}
+
+.fa-twitter {
+    color: #55acee;
+}
+
+.fa-youtube {
+    color: #cd201f;
+}
+
+.fa-dribbble {
+    color: #ea4c89;
+}
+
+.fa-instagram {
+    color: #3f729b;
+}
+
+.fa-google-plus {
+    color: #dc4e41;
+}
+
+/*ROUNDEDICONS + ANIMATIONS*/
+.rounded-icons .fa {
+    color: white;
+    padding: 10px;
+    text-align: center;
+    border-radius: 10%;
+}
+.rounded-icons .fa-facebook {
+    background-color: #3b5998;
+}
+.rounded-icons .fa-facebook:hover {
+    background-color: #fff;
+    color: #3b5998;
+}
+.rounded-icons .fa-instagram {
+    background-color: #3f729b;
+}
+.rounded-icons .fa-instagram:hover {
+    background-color: #fff;
+    color: #3f729b;
+}
+.rounded-icons .fa-twitter {
+    background-color: #55acee;
+}
+.rounded-icons .fa-twitter:hover {
+    background-color: #fff;
+    color: #55acee;
+}
+.rounded-icons .fa-youtube {
+    background-color: #cd201f;
+}
+.rounded-icons .fa-youtube:hover {
+    background-color: #fff;
+    color: #cd201f;
+}
+.rounded-icons .fa-google-plus {
+    background-color: #dc4e41;
+}
+.rounded-icons .fa-google-plus:hover {
+    background-color: #fff;
+    color: #dc4e41;
+}
+.rounded-icons .fa-dribbble {
+    background-color: #ea4c89;
+}
+.rounded-icons .fa-dribbble:hover {
+    background-color: #fff;
+    color: #ea4c89;
 }
 
 .col-md-3 h1

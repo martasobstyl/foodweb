@@ -4,6 +4,8 @@
 	<title> Foodweb </title>
 	<meta charset="UTF-8">
 	<link rel="stylesheet" href="css/font-awesome.css"/>
+	<link href='https://fonts.googleapis.com/css?family=Lobster&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+	<link href='https://fonts.googleapis.com/css?family=Covered+By+Your+Grace' rel='stylesheet' type='text/css'>
     <link type="text/css" rel="stylesheet" href="css/bootstrap-theme.css">
     <link type="text/css" rel="stylesheet" href="css/bootstrap.css">
     <link rel="stylesheet" href="css/animate.css">
@@ -15,8 +17,7 @@
 	<script src="http://malsup.github.com/jquery.cycle2.js"></script>
 	<link rel="stylesheet" href="style.css">
 </head>
-
-<body>
+<body class="clearfix">
 	<header id="main-header">
         <span id="hamburger">
           <a><i class="fa fa-bars fa-3" aria-hidden="true"></i></a>
@@ -91,27 +92,65 @@
 			<div id="slide3" class="slide-img"><span class="slide-text"><p>Organizujemy bankiety i wesela</p></span></div>
 			<div id="slide4" class="slide-img"><span class="slide-text"><p>Zapraszamy!</p></span></div>
 	</div>
-	    </div>
-	    
-      <div class="contact"></div>
-      
-      </div>
-	
-  <footer>
-		<div class="stopa flex">
-			<a href="https://www.facebook.com/Nebo-Nebo-1034069870021406/" target="_blank">
-				<i class="fa fa-facebook-square fa-3" aria-hidden="true"></i>
-			</a>
-			<a href="https://pl.pinterest.com/zuzannab/nebo-nebo/" target="_blank">
-				<i class="fa fa-pinterest fa-3" aria-hidden="true"></i>
-			</a>	
-			<a href="https://www.instagram.com/nebo_angels/" target="_blank">
-				<i class="fa fa-instagram fa-3" aria-hidden="true"></i>
-			</a>	
-			<a href="mailto:zuza.bieniek@gmail.com" target="_blank">
-				<i class="fa fa-envelope-o fa-3" aria-hidden="true"></i>
-			</a>			
-		</div> 
+
+	<div class="contact">
+
+		<div class="col-md-8 dane">
+			<div class="col-md-4 imgcontact">
+				<img src="img/logo.png">
+			</div>
+			<div class="col-md-8">
+			<table>
+				<thead></thead>
+				<tbody>
+				<tr>
+					<td class="col-md-3"><i class="fa fa-map-marker fa-2x" aria-hidden="true"></i></td>
+					<td class="col-md-9">
+						<p>Krewetka Restaurant</p>
+						<p>Plac Konstytucji 2</p>
+						<p>Warszawa, PL</p>
+					</td>
+				</tr>
+				<tr>
+					<td class="col-md-3"><i class="fa fa-phone fa-2x" aria-hidden="true"></i></td>
+					<td class="col-md-9">502-123-456</td>
+				</tr>
+				<tr>
+					<td class="col-md-3"><i class="fa fa-envelope fa-2x" aria-hidden="true"></i></td>
+					<td class="col-md-9"><p>office@krewetka.pl</p></td>
+				</tr>
+				</tbody>
+			</table>
+				</div>
+		</div>
+
+		<div class="col-md-4">
+			<form id="formularz">
+				<p>Contact us today</p>
+				<input type="text" placeholder="Your name...">
+				<input type="email" placeholder="Email..." required>
+				<textarea placeholder="Message..."></textarea>
+				<input type="submit" name="Send" value="Send" class="send">
+			</form>
+		</div>
+		<div class="mapa">
+			<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d11626.694691885748!2d20.997662994473025!3d52.22137566595714!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0000000000000000%3A0x26053650278a8b21!2sVarso+Vie!5e0!3m2!1spl!2spl!4v1465728639260" frameborder="0" style="border:0" allowfullscreen></iframe>
+		</div>
+		<div class="find">
+			<p>You can find us</p>
+			<div class="icons rounded-icons">
+				<a class='fa fa-facebook' href='#'></a>
+				<a class='fa fa-instagram' href='#'></a>
+				<a class='fa fa-twitter' href='#'></a>
+				<a class='fa fa-youtube' href='#'></a>
+				<a class='fa fa-google-plus' href='#'></a>
+				<a class='fa fa-dribbble' href='#'></a>
+			</div>
+		</div>
+	</div>
+	<footer>
+		<p>&copy Krewetka 2016 ~ Wszelkie prawa zastrzeżone</p>
 	</footer>
+
 </body>
 </html>
